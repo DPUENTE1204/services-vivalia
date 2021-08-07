@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+header {
+    margin: 100px;
+    width: 1200px;
+    height: 230px;
+    background-color: red;
+}
+
+div.contenedor {
+    width: 200px;
+    height: 230px;
+    float: left;
+    -webkit-transition: height .4s;
+}
+
+div#corporativo{
+    background-color: rgb(2, 7, 53);
+}
+
+div#monterrey {
+    background-color: rgb(241, 99, 56);
+}
+
+div#guadalajara {
+    background-color: rgb(67, 165, 29);
+}
+
+div#durango {
+    background-color: rgb(4, 163, 150)
+}
+
+div#tampico{
+    background-color: rgb(2, 7, 53);
+}
+
+div#aguascalientes {
+    background-color: rgb(241, 99, 56);
+}
+
+div#torreon {
+    background-color: rgb(67, 165, 29);
+}
+
+div#san-luis {
+    background-color: rgb(4, 163, 150)
+}
+
+div#cd-victoria{
+    background-color: rgb(2, 7, 53);
+}
+
+div#zacatecas {
+    background-color: rgb(241, 99, 56);
+}
+
+div#call-center {
+    background-color: rgb(67, 165, 29);
+}
+div#regresar {
+    background-color: rgb(74, 129, 173);
+}
+
+img.icon {
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255, 255, 255, .15);
+    width: 50px;
+    padding: 20px;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition:box-shadow .4s;
+
+}
+
+a.texto {
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover { 
+    height: 250px;
+}
+
+div.contenedor:hover p.texto {
+    padding-top: 30px;
+}
+
+div.contenedor:hover img.icon { 
+    -webkit-box-shadow: 0px 0px 0px  rgba(255, 255, 255, .6);
+}
